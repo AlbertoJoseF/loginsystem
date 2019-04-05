@@ -1,5 +1,5 @@
 ﻿# loginsystem
-Login system implemented with PHP, Apache web server (with XAMPP) and MySQL database with PHP prepared statements. 
+Login system implemented with PHP, Apache web server (using XAMPP) and MySQL database with PHP prepared statements. 
 
 ### What you need beforehand:
 * XAMPP Apache web server
@@ -7,4 +7,13 @@ Login system implemented with PHP, Apache web server (with XAMPP) and MySQL data
 
 ### For preparing DB and running login system:
 * Click on Start for the modules of Apache and MySQL of the XAMPP Control Panel.
+* On any browser go to localhost/phpmyadmin
+* Create new database with the "loginsystee" name
+* Create table with the following characteristics:
+
+```bash
+CREATE TABLE `loginsystem`.`users` ( `idUsers` INT NOT NULL AUTO_INCREMENT , `uidUsers` VARCHAR NOT NULL , `emailUsers` VARCHAR NOT NULL , `pwdUsers` VARCHAR NOT NULL , PRIMARY KEY (`idUsers`)) ENGINE = InnoDB;
+```
+### To run login system:
+* Go to localhost/loginsystem
 
