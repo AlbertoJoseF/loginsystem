@@ -1,7 +1,7 @@
 ﻿# loginsystem
 Login system implemented with PHP, Apache web server (using XAMPP) and MySQL database with PHP prepared statements. 
 
-### What you need beforehand:
+## What you need beforehand:
 * XAMPP Apache web server
 * Created DB using phpMyAdmin (accessed through localhost/phpmyadmin)
 
