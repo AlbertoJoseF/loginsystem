@@ -8,7 +8,7 @@ Login system implemented with PHP, Apache web server (using XAMPP) and MySQL dat
 ### For preparing DB and running login system:
 * Click on Start for the modules of Apache and MySQL of the XAMPP Control Panel.
 * On any browser go to localhost/phpmyadmin
-* Create new database with the "loginsystee" name
+* Create new database with the "loginsystem" name
 * Create table with the following characteristics:
 
 ```bash
