@@ -19,7 +19,7 @@ CREATE TABLE `loginsystem`.`users` ( `idUsers` INT NOT NULL AUTO_INCREMENT , `ui
 ```
 
 ### How to run login system:
-* Copy all files in folder (preferably named "loginsystem") located in the htdocs folder of the xampp preinstalled directory, 
+* Copy all files and directories of the loginsystem project into new folder (preferably named "loginsystem") located in the htdocs folder of the xampp preinstalled directory, 
 i.e.
 ```bash
 C:\xampp\htdocs\loginsystem
@@ -30,6 +30,12 @@ C:\xampp\htdocs\loginsystem
 * On any browser go to:
 ```bash
 localhost/loginsystem
+```
+
+* Note that if files and directories of project are copied into another subdirectory of the htdocs folder the URL to go to will change.
+i.e.
+```bash
+localhost/someFolder/subdirectory
 ```
 
 * Try out the system.
