@@ -32,7 +32,7 @@ C:\xampp\htdocs\loginsystem
 localhost/loginsystem
 ```
 
-* Note: If files and directories of project are copied into another subdirectory of the htdocs folder the URL to go to in browser will change.
+* Note: If files and directories of project are copied into another subdirectory of the htdocs folder the URL to go to in browser will change,
 e.g.
 ```bash
 localhost/someFolder/subdirectory
