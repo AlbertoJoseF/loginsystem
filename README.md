@@ -8,14 +8,12 @@ Login system implemented with PHP, Apache web server (using XAMPP) and MySQL dat
 ### For preparing DB to running login system:
 * Click on Start button for the modules of Apache and MySQL of the XAMPP Control Panel.
 * On any browser go to:
-
 ```bash
 localhost/phpmyadmin
 ```
 
 * Create new database with the "loginsystem" name.
 * In the new loginsystem DB create table with the following characteristics:
-
 ```bash
 CREATE TABLE `loginsystem`.`users` ( `idUsers` INT NOT NULL AUTO_INCREMENT , `uidUsers` VARCHAR NOT NULL , `emailUsers` VARCHAR NOT NULL , `pwdUsers` VARCHAR NOT NULL , PRIMARY KEY (`idUsers`)) ENGINE = InnoDB;
 ```
@@ -23,13 +21,11 @@ CREATE TABLE `loginsystem`.`users` ( `idUsers` INT NOT NULL AUTO_INCREMENT , `ui
 ### How to run login system:
 * Copy all files in folder (preferably named "loginsystem") located in the htdocs folder of the xampp preinstalled directory, 
 i.e.
-
 ```bash
 C:\xampp\htdocs\loginsystem
 ```
 
 * On any browser go to:
-
 ```bash
 localhost/loginsystem
 ```
