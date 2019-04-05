@@ -24,7 +24,7 @@ CREATE TABLE `loginsystem`.`users` ( `idUsers` INT NOT NULL AUTO_INCREMENT , `ui
 * Preferably use code editor to view PHP code.
 
 ### Built using:
-* XAMPP (https://www.apachefriends.org/index.html) - Apache Web Server
+* XAMPP (https://www.apachefriends.org/index.html) - Apache Local Web Server
 * Visual Studio Code (https://code.visualstudio.com/) - Code editor
 
 ### References:
