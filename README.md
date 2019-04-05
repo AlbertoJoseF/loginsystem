@@ -25,7 +25,7 @@ i.e.
 C:\xampp\htdocs\loginsystem
 ```
 
-* Have the Apache and MySQL modules in the XAMPP Control Panel started (by clicking on thir respective Start buttons).
+* Make sure to have the Apache and MySQL modules in the XAMPP Control Panel started (by clicking on their respective Start buttons).
 
 * On any browser go to:
 ```bash
